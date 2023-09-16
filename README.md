@@ -14,7 +14,7 @@ services:
       - WG_HOST=raspberrypi.local # ⚠️ Wan Ip or Dynamic DNS
       - PASSWORD=foobar123 # ⚠️ Your login password
       - WG_PORT=51820 # Port which needs to be portwarded
-      - WG_MTU=1420 # MTU, maximum transmission unit
+      - WG_MTU=1420 # MTU, maximum transmission unit, 1420 is default but i recommend changing this to 1280
       - WG_DEFAULT_DNS=1.1.1.1 # Your DNS. 1.1.1.1 is cloudflare
 
       # Optional:
