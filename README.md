@@ -41,3 +41,6 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
 
 ```
+
+or use one of the wireguard stack templates from here:
+https://github.com/novaspirit/pi-hosted
