@@ -44,3 +44,6 @@ services:
 
 or use one of the wireguard stack templates from here:
 https://github.com/novaspirit/pi-hosted
+
+Why i recommend MTU 1280?  
+https://keremerkan.net/posts/wireguard-mtu-fixes/
